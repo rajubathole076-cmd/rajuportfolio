@@ -18,6 +18,11 @@ const config: Config = {
         "verdant-text": "#2A3026",
         "verdant-accent": "#A06B44",
         "verdant-light": "#E6E3D8",
+        "lumina-bg": "#F9F9F9",
+        "lumina-text": "#1A1A1A",
+        "lumina-accent": "#5E6C6D",
+        "lumina-light": "#EAEAEA",
+        "lumina-dark": "#333333",
       },
       fontFamily: {
         display: ['Fraunces', 'serif'],

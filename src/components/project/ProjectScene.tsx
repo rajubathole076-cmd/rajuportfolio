@@ -83,7 +83,7 @@ export default function ProjectScene({ project }: ProjectSceneProps) {
             ))}
           </div>
 
-          {project.slug === 'verdant' ? (
+          {project.hasPrototype ? (
             <button
               onClick={() => window.dispatchEvent(new CustomEvent('launch-project', { detail: project.slug }))}
               className="font-sans text-label uppercase tracking-widest text-paper bg-ember hover:bg-rust transition-colors px-6 py-4 flex items-center gap-2 group mt-6"

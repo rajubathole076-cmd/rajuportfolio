@@ -6,6 +6,7 @@ import Work from "./components/chapters/Work";
 import Services from "./components/chapters/Services";
 import Journal from "./components/chapters/Journal";
 import ContactOutro from "./components/chapters/ContactOutro";
+import PrototypeManager from "./components/prototypes/PrototypeManager";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Journal />
         <ContactOutro />
       </main>
+      <PrototypeManager />
     </>
   );
 }

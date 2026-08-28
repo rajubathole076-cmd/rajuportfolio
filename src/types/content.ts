@@ -70,6 +70,7 @@ export interface Project {
   motionNotes: string[];
   images: ProjectImage[];
   detail: ProjectDetail;
+  hasPrototype?: boolean;
 }
 
 export interface ProjectImage {
