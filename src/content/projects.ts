@@ -62,5 +62,36 @@ export const projects: Project[] = [
         "Pinned layout scrolling on product detail pages."
       ],
     },
+  },
+  {
+    slug: "aria",
+    title: "Aria",
+    type: "Fine-Art Photography Portfolio",
+    label: "Concept / Self-Initiated",
+    goal: "Demonstrate visually-led, editorial storytelling for high-end personal brands and visual creators.",
+    approach: "Strip away conventional UI elements to let photography dominate. Use stark monochrome contrast and horizontal narrative flow.",
+    description: "Aria proves the ability to step away from traditional vertical layouts. It creates a digital gallery experience relying on extreme whitespace, editorial typography, and massive image scaling.",
+    technologies: ["React", "GSAP", "ScrollTrigger", "Tailwind CSS"],
+    motionNotes: [
+      "Horizontal scroll translation (xPercent)",
+      "Monochrome-to-color hover reveals",
+      "Cinematic typographic intro sequencing"
+    ],
+    images: [],
+    hasPrototype: true,
+    detail: {
+      problem: "Objective: Design an immersive, non-conventional portfolio for a visual artist.",
+      solution: "Implemented a horizontal scrolling track that converts natural vertical scrolling into a side-scrolling gallery using GSAP.",
+      keyDecisions: [
+        "Removed color from the UI entirely to ensure the photography is the sole focus.",
+        "Implemented 'lazy' loading for images outside the initial horizontal track to maintain performance.",
+        "Disabled the horizontal track natively on mobile to preserve touch usability."
+      ],
+      interactions: [
+        "Images scale and reveal color when interacted with.",
+        "Smooth GSAP scrubbing binds the horizontal gallery to the exact scroll position.",
+        "Subtle pulsing scroll indicator prevents UX confusion."
+      ],
+    },
   }
 ];

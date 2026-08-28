@@ -23,6 +23,10 @@ const config: Config = {
         "lumina-accent": "#5E6C6D",
         "lumina-light": "#EAEAEA",
         "lumina-dark": "#333333",
+        "aria-bg": "#0A0A0A",
+        "aria-text": "#F2F2F2",
+        "aria-accent": "#E6D5B8",
+        "aria-surface": "#1A1A1A",
       },
       fontFamily: {
         display: ['Fraunces', 'serif'],
