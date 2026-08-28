@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react';
 import VerdantApp from '../verdant/VerdantApp';
 import LuminaApp from '../lumina/LuminaApp';
-import AriaApp from '../aria/AriaApp'; // to be built
+import AriaApp from '../aria/AriaApp';
+import AnatomyApp from '../anatomy/AnatomyApp';
 
 const PrototypeRegistry: Record<string, React.ComponentType> = {
   verdant: VerdantApp,
   lumina: LuminaApp,
   aria: AriaApp,
+  anatomy: AnatomyApp,
 };
 
 export default function PrototypeManager() {

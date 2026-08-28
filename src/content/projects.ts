@@ -93,5 +93,36 @@ export const projects: Project[] = [
         "Subtle pulsing scroll indicator prevents UX confusion."
       ],
     },
+  },
+  {
+    slug: "anatomy",
+    title: "Anatomy of Type",
+    type: "Interactive Exhibition",
+    label: "Concept / Self-Initiated",
+    goal: "Demonstrate advanced creative frontend engineering through experimental typographic choreography.",
+    approach: "Treat typography as pure geometric form. Manipulate the DOM directly with GSAP based on scroll progression without relying on WebGL.",
+    description: "Anatomy of Type is an experimental digital exhibition exploring the structure of letterforms. It features scroll-scrubbed variable fonts, SVG line drawing, and extreme typographic deconstruction.",
+    technologies: ["React", "GSAP", "ScrollTrigger", "Tailwind CSS"],
+    motionNotes: [
+      "Scroll-scrubbed variable font weights",
+      "SVG path drawing (drawSVG concept)",
+      "Typographic deconstruction and reassembly"
+    ],
+    images: [],
+    hasPrototype: true,
+    detail: {
+      problem: "Objective: Create a highly technical GSAP showpiece demonstrating DOM manipulation limits.",
+      solution: "A completely image-free experience relying entirely on inline SVGs, variable web fonts (Fraunces), and mathematically precise ScrollTrigger scrubbing.",
+      keyDecisions: [
+        "Avoided scroll velocity binds in favor of direct scroll scrubbing for maximum stability.",
+        "Restricted the variable font manipulation strictly to the 'wght' axis to prevent browser layout thrashing.",
+        "Employed 'prefers-reduced-motion' fallbacks to instantly resolve the abstract typography into readable blocks."
+      ],
+      interactions: [
+        "Interactive letterform splitting.",
+        "Scroll-driven font weight interpolation.",
+        "Gradual deconstruction leading to a final composed CTA."
+      ],
+    },
   }
 ];

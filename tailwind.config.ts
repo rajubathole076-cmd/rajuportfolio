@@ -27,6 +27,9 @@ const config: Config = {
         "aria-text": "#F2F2F2",
         "aria-accent": "#E6D5B8",
         "aria-surface": "#1A1A1A",
+        "anatomy-bg": "#EFEFEF",
+        "anatomy-text": "#111111",
+        "anatomy-accent": "#D14900",
       },
       fontFamily: {
         display: ['Fraunces', 'serif'],
