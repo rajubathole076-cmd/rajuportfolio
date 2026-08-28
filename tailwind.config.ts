@@ -14,6 +14,10 @@ const config: Config = {
         rust: "#8A3209",
         void: "#0D0B09",
         mist: "#E8E1D5",
+        "verdant-bg": "#F4F2EC",
+        "verdant-text": "#2A3026",
+        "verdant-accent": "#A06B44",
+        "verdant-light": "#E6E3D8",
       },
       fontFamily: {
         display: ['Fraunces', 'serif'],
