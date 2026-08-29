@@ -3,6 +3,8 @@ import AnatomyHeader from './AnatomyHeader';
 import AnatomyForm from './AnatomyForm';
 import AnatomyWeight from './AnatomyWeight';
 import AnatomyStructure from './AnatomyStructure';
+import AnatomyRhythm from './AnatomyRhythm';
+import AnatomyTransformation from './AnatomyTransformation';
 import { useGsap, gsap } from '../../hooks/useGsap';
 
 function AnatomyLayout() {
@@ -38,6 +40,8 @@ function AnatomyLayout() {
         <AnatomyForm />
         <AnatomyWeight />
         <AnatomyStructure />
+        <AnatomyRhythm />
+        <AnatomyTransformation />
       </main>
 
       {/* Footer */}
