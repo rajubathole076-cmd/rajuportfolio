@@ -1,9 +1,9 @@
-import type { AboutInfo } from "../types/content";
+﻿import type { AboutInfo } from "../types/content";
 
 export const about: AboutInfo = {
   paragraphs: [
-    "Placeholder about text — who I am, what I do, and where I am based.",
-    "Placeholder — what I care about and what I am building toward.",
+    "I'm Raju Bathole, a web developer based in Indore, India, focused on building modern websites and interactive digital experiences. I enjoy turning ideas into websites that are not only functional, but thoughtfully designed, responsive, and memorable to use.",
+    "My work sits at the intersection of development, visual design, and motion — from business and e-commerce websites to more experimental interactive experiences. I'm continuously learning, experimenting, and pushing my frontend skills further with every project."
   ],
   values: [
     "Craft over speed",
@@ -11,5 +11,5 @@ export const about: AboutInfo = {
     "Continuous learning",
   ],
   buildingToward:
-    "Placeholder — what I am building toward as a creative developer.",
+    "I'm currently building my freelance practice and working toward collaborating with businesses, founders, creators, and brands in India and around the world.",
 };

@@ -2,6 +2,7 @@
 import { chapters } from "../../content/chapters";
 import { site } from "../../content/site";
 import ContactForm from "../ui/ContactForm";
+import ContactBloom from "../ui/ContactBloom";
 import { useGsap, gsap } from "../../hooks/useGsap";
 
 export default function ContactOutro() {
@@ -45,45 +46,16 @@ export default function ContactOutro() {
             <ContactForm />
           </div>
 
-          {/* Contact methods */}
-          <div className="outro-reveal md:col-span-4 md:col-start-9">
+          {/* Contact Bloom / Direct */}
+          <div className="outro-reveal md:col-span-4 md:col-start-9 flex flex-col h-full">
             <h3 className="font-sans text-label uppercase tracking-widest text-mist/40 mb-8 border-b border-mist/10 pb-4">
               Direct
             </h3>
-            <ul className="space-y-6">
-              <li>
-                <p className="font-sans text-label uppercase tracking-widest text-mist/40 mb-2">Email</p>
-                <a
-                  href={`mailto:${site.email || "hello@example.com"}`}
-                  className="font-display text-subhead text-mist hover:text-ember transition-colors inline-block"
-                >
-                  {site.email || "hello@example.com"}
-                </a>
-              </li>
-              <li>
-                <p className="font-sans text-label uppercase tracking-widest text-mist/40 mb-2">WhatsApp</p>
-                <a
-                  href={`https://wa.me/${site.whatsapp || "0000000000"}`}
-                  className="font-display text-subhead text-mist hover:text-ember transition-colors inline-block"
-                >
-                  {site.whatsapp ? "Send a Message" : "+91 (000) 000-0000"}
-                </a>
-              </li>
-              {site.github && (
-                <li>
-                  <p className="font-sans text-label uppercase tracking-widest text-mist/40 mb-2">GitHub</p>
-                  <a
-                    href={site.github}
-                    className="font-display text-subhead text-mist hover:text-ember transition-colors inline-block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Source
-                  </a>
-                </li>
-              )}
-            </ul>
             
+            <div className="flex-grow flex items-center justify-center">
+              <ContactBloom />
+            </div>
+
             <div className="mt-16 pt-8 border-t border-mist/10">
               <p className="font-sans text-body-sm text-mist/50">
                 Based in {site.location}
@@ -92,7 +64,7 @@ export default function ContactOutro() {
             </div>
           </div>
         </div>
-        
+
         <div className="outro-reveal w-full border-t border-mist/10 py-6 mt-16 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="font-sans text-label uppercase tracking-widest text-mist/40">
             © {new Date().getFullYear()} {site.name || "RAJU"}

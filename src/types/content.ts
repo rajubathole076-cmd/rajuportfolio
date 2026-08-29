@@ -10,6 +10,7 @@ export interface SiteInfo {
 }
 
 export interface SocialLink {
+  id: string;
   label: string;
   url: string;
 }
