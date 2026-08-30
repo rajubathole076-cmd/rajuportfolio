@@ -1,40 +1,34 @@
-import type { ProcessStep } from "../types/content";
+﻿import type { ProcessStep } from "../types/content";
 
 export const processSteps: ProcessStep[] = [
   {
     number: "01",
     title: "Discover",
-    description:
-      "Placeholder — understanding the project, goals, and audience.",
+    description: "Understanding the project, goals, and audience to establish a strong creative foundation.",
   },
   {
     number: "02",
     title: "Plan",
-    description:
-      "Placeholder — defining structure, scope, and timeline.",
+    description: "Defining the architecture, scope, timeline, and technical constraints.",
   },
   {
     number: "03",
     title: "Design",
-    description:
-      "Placeholder — creating the visual system and layout.",
+    description: "Creating the visual system, typography scale, and layout composition.",
   },
   {
     number: "04",
     title: "Build",
-    description:
-      "Placeholder — developing the site with clean, performant code.",
+    description: "Developing the site with clean, performant, and accessible frontend code.",
   },
   {
     number: "05",
     title: "Test",
-    description:
-      "Placeholder — checking responsiveness, accessibility, and behavior.",
+    description: "Rigorous checking for responsiveness, motion stability, and cross-browser behavior.",
   },
   {
     number: "06",
     title: "Launch",
-    description:
-      "Placeholder — deploying the site and making it live.",
+    description: "Deploying the digital experience and handing it over smoothly.",
   },
 ];
